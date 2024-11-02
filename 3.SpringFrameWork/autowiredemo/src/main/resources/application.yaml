@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  boot:
+    admin:
+      url: http://localhost:8081
+server:
+  port: 8080
+company:
+  boss:
+    drive: haval
